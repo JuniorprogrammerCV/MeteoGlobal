@@ -27,7 +27,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório** (ou baixe os arquivos para uma pasta em seu computador).
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/JuniorprogrammerCV/MeteoGlobal.git
     ```
 
 2.  **Obtenha uma chave da API**:
