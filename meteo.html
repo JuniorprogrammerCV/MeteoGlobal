@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo Global</title>
+    <link rel="stylesheet" href="meteo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meteo Global</h1>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Digite o nome da cidade...">
+                <button id="search-btn">Buscar</button>
+            </div>
+
+            <div class="error-message" id="error-message"></div>
+
+            <div class="weather-card" id="weather-card">
+                <div class="location">
+                    <h2 id="city-name"></h2>
+                    <span id="country"></span>
+                </div>
+
+                <div class="current-weather">
+                    <div class="temperature" id="temperature"></div>
+                    <img src="" alt="Ícone do tempo" class="weather-icon" id="weather-icon">
+                </div>
+
+                <p class="weather-description" id="weather-description"></p>
+
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <p class="detail-label">Sensação Térmica</p>
+                        <p class="detail-value" id="feels-like"></p>
+                    </div>
+                    <div class="detail-item">
+                        <p class="detail-label">Umidade</p>
+                        <p class="detail-value" id="humidity"></p>
+                    </div>
+                    <div class="detail-item">
+                        <p class="detail-label">Vento</p>
+                        <p class="detail-value" id="wind-speed"></p>
+                    </div>
+                    <div class="detail-item">
+                        <p class="detail-label">Pressão</p>
+                        <p class="detail-value" id="pressure"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Junior Delgado. Todos os direitos reservados.<br>
+                    Desenvolvido com API do OpenWeatherMap.
+            </p>
+        </footer>
+    </div>
+
+    <script src="meteo.js"></script>
+</body>
+</html>
